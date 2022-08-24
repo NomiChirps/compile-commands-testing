@@ -6,7 +6,7 @@
 2. VSCode command `clangd: Restart language server`
 3. Open `foo.h` in VSCode; observe that there are no underlined errors.
 4. `bazel run :refresh_compile_commands_bad`
-5. Open `foo.h` in VSCode; observe the following error underlined on line 4:
+5. Close and reopen `foo.h` in VSCode; observe the following error underlined on line 4:
 ```
 /usr/include/c++/12.1.1/iostream
 Follow link (ctrl + click)

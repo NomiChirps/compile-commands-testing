@@ -47,9 +47,9 @@ Clangd arguments:
 
 ## Logs
 
-- logs/clangd-compile-commands-no-compile-commands.log
+- logs/clangd-no-compile-commands.log
 - logs/clangd-compile-commands-bad.log
 - logs/clangd-compile-commands-good.log
-- compile_commands_bad.json
-- compile_commands_good.json
+- logs/compile_commands_bad.json
+- logs/compile_commands_good.json
 

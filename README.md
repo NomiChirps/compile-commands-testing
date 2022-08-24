@@ -3,10 +3,10 @@
 ## Reproduction
 
 1. `bazel clean --expunge && rm -rf .cache compile_commands.json`
-1. VSCode command `clangd: Restart language server`
-1. Open `foo.h` in VSCode; observe that there are no underlined errors.
-1. `bazel run :refresh_compile_commands_bad`
-2. Open `foo.h` in VSCode; observe the following error underlined on line 4:
+2. VSCode command `clangd: Restart language server`
+3. Open `foo.h` in VSCode; observe that there are no underlined errors.
+4. `bazel run :refresh_compile_commands_bad`
+5. Open `foo.h` in VSCode; observe the following error underlined on line 4:
 ```
 /usr/include/c++/12.1.1/iostream
 Follow link (ctrl + click)
@@ -14,8 +14,8 @@ Follow link (ctrl + click)
 In included file: 'stdlib.h' file not foundclang(pp_file_not_found)
 cstdlib(75, 15): Error occurred here
 ```
-3. `bazel run :refresh_compile_commands_good`
-4. Close and reopen `foo.h` is VSCode; observe that there are no underlined errors.
+6. `bazel run :refresh_compile_commands_good`
+7. Close and reopen `foo.h` is VSCode; observe that there are no underlined errors.
 
 Tested with:
 ```

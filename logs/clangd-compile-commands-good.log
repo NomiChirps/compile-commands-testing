@@ -1,0 +1,142 @@
+V[20:56:38.214] <<< {"id":5,"jsonrpc":"2.0","method":"shutdown"}
+
+I[20:56:38.214] <-- shutdown(5)
+I[20:56:38.214] --> reply:shutdown(5) 0 ms
+V[20:56:38.214] >>> {"id":5,"jsonrpc":"2.0","result":null}
+
+V[20:56:38.246] <<< {"jsonrpc":"2.0","method":"exit"}
+
+I[20:56:38.246] <-- exit
+I[20:56:38.246] LSP finished, exiting with status 0
+I[20:56:38.259] clangd version 14.0.3 (https://github.com/llvm/llvm-project 1f9140064dfbfb0bbda8e51306ea51080b2f7aac)
+I[20:56:38.259] Features: linux+grpc
+I[20:56:38.259] PID: 402272
+I[20:56:38.259] Working directory: /home/nomi/code/tplp2
+I[20:56:38.259] argv[0]: /home/nomi/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/14.0.3/clangd_14.0.3/bin/clangd
+I[20:56:38.259] argv[1]: --header-insertion=never
+I[20:56:38.259] argv[2]: --query-driver=**
+I[20:56:38.259] argv[3]: --log=verbose
+V[20:56:38.259] User config file is /home/nomi/.config/clangd/config.yaml
+I[20:56:38.259] Starting LSP over stdin/stdout
+V[20:56:38.259] <<< {"id":0,"jsonrpc":"2.0","method":"initialize","params":{"capabilities":{"general":{"markdown":{"parser":"marked","version":"1.1.0"},"positionEncodings":["utf-16"],"regularExpressions":{"engine":"ECMAScript","version":"ES2020"},"staleRequestSupport":{"cancel":true,"retryOnContentModified":["textDocument/semanticTokens/full","textDocument/semanticTokens/range","textDocument/semanticTokens/full/delta"]}},"notebookDocument":{"synchronization":{"dynamicRegistration":true,"executionSummarySupport":true}},"textDocument":{"callHierarchy":{"dynamicRegistration":true},"codeAction":{"codeActionLiteralSupport":{"codeActionKind":{"valueSet":["","quickfix","refactor","refactor.extract","refactor.inline","refactor.rewrite","source","source.organizeImports"]}},"dataSupport":true,"disabledSupport":true,"dynamicRegistration":true,"honorsChangeAnnotations":false,"isPreferredSupport":true,"resolveSupport":{"properties":["edit"]}},"codeLens":{"dynamicRegistration":true},"colorProvider":{"dynamicRegistration":true},"completion":{"completionItem":{"commitCharactersSupport":true,"deprecatedSupport":true,"documentationFormat":["markdown","plaintext"],"insertReplaceSupport":true,"insertTextModeSupport":{"valueSet":[1,2]},"labelDetailsSupport":true,"preselectSupport":true,"resolveSupport":{"properties":["documentation","detail","additionalTextEdits"]},"snippetSupport":true,"tagSupport":{"valueSet":[1]}},"completionItemKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25]},"completionList":{"itemDefaults":["commitCharacters","editRange","insertTextFormat","insertTextMode"]},"contextSupport":true,"dynamicRegistration":true,"editsNearCursor":true,"insertTextMode":2},"declaration":{"dynamicRegistration":true,"linkSupport":true},"definition":{"dynamicRegistration":true,"linkSupport":true},"diagnostic":{"dynamicRegistration":true,"relatedDocumentSupport":false},"documentHighlight":{"dynamicRegistration":true},"documentLink":{"dynamicRegistration":true,"tooltipSupport":true},"documentSymbol":{"dynamicRegistration":true,"hierarchicalDocumentSymbolSupport":true,"labelSupport":true,"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]},"tagSupport":{"valueSet":[1]}},"foldingRange":{"dynamicRegistration":true,"foldingRange":{"collapsedText":false},"foldingRangeKind":{"valueSet":["comment","imports","region"]},"lineFoldingOnly":true,"rangeLimit":5000},"formatting":{"dynamicRegistration":true},"hover":{"contentFormat":["markdown","plaintext"],"dynamicRegistration":true},"implementation":{"dynamicRegistration":true,"linkSupport":true},"inlayHint":{"dynamicRegistration":true,"resolveSupport":{"properties":["tooltip","textEdits","label.tooltip","label.location","label.command"]}},"inlineValue":{"dynamicRegistration":true},"linkedEditingRange":{"dynamicRegistration":true},"onTypeFormatting":{"dynamicRegistration":true},"publishDiagnostics":{"codeDescriptionSupport":true,"dataSupport":true,"relatedInformation":true,"tagSupport":{"valueSet":[1,2]},"versionSupport":false},"rangeFormatting":{"dynamicRegistration":true},"references":{"dynamicRegistration":true},"rename":{"dynamicRegistration":true,"honorsChangeAnnotations":true,"prepareSupport":true,"prepareSupportDefaultBehavior":1},"selectionRange":{"dynamicRegistration":true},"semanticTokens":{"augmentsSyntaxTokens":true,"dynamicRegistration":true,"formats":["relative"],"multilineTokenSupport":false,"overlappingTokenSupport":false,"requests":{"full":{"delta":true},"range":true},"serverCancelSupport":true,"tokenModifiers":["declaration","definition","readonly","static","deprecated","abstract","async","modification","documentation","defaultLibrary"],"tokenTypes":["namespace","type","class","enum","interface","struct","typeParameter","parameter","variable","property","enumMember","event","function","method","macro","keyword","modifier","comment","string","number","regexp","operator","decorator"]},"signatureHelp":{"contextSupport":true,"dynamicRegistration":true,"signatureInformation":{"activeParameterSupport":true,"documentationFormat":["markdown","plaintext"],"parameterInformation":{"labelOffsetSupport":true}}},"synchronization":{"didSave":true,"dynamicRegistration":true,"willSave":true,"willSaveWaitUntil":true},"typeDefinition":{"dynamicRegistration":true,"linkSupport":true},"typeHierarchy":{"dynamicRegistration":true}},"window":{"showDocument":{"support":true},"showMessage":{"messageActionItem":{"additionalPropertiesSupport":true}},"workDoneProgress":true},"workspace":{"applyEdit":true,"codeLens":{"refreshSupport":true},"configuration":true,"diagnostics":{"refreshSupport":true},"didChangeConfiguration":{"dynamicRegistration":true},"didChangeWatchedFiles":{"dynamicRegistration":true,"relativePatternSupport":true},"executeCommand":{"dynamicRegistration":true},"fileOperations":{"didCreate":true,"didDelete":true,"didRename":true,"dynamicRegistration":true,"willCreate":true,"willDelete":true,"willRename":true},"inlayHint":{"refreshSupport":true},"inlineValue":{"refreshSupport":true},"semanticTokens":{"refreshSupport":true},"symbol":{"dynamicRegistration":true,"resolveSupport":{"properties":["location.range"]},"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]},"tagSupport":{"valueSet":[1]}},"workspaceEdit":{"changeAnnotationSupport":{"groupsOnLabel":true},"documentChanges":true,"failureHandling":"textOnlyTransactional","normalizesLineEndings":true,"resourceOperations":["create","rename","delete"]},"workspaceFolders":true}},"clientInfo":{"name":"Visual Studio Code","version":"1.70.2"},"initializationOptions":{"clangdFileStatus":true,"fallbackFlags":[]},"locale":"en-us","processId":368212,"rootPath":"/home/nomi/code/tplp2","rootUri":"file:///home/nomi/code/tplp2","trace":"off","workspaceFolders":[{"name":"tplp2","uri":"file:///home/nomi/code/tplp2"},{"name":"compile-commands-testing","uri":"file:///home/nomi/code/compile-commands-testing"}]}}
+
+I[20:56:38.260] <-- initialize(0)
+I[20:56:38.260] --> reply:initialize(0) 0 ms
+V[20:56:38.261] >>> {"id":0,"jsonrpc":"2.0","result":{"capabilities":{"astProvider":true,"callHierarchyProvider":true,"clangdInlayHintsProvider":true,"codeActionProvider":{"codeActionKinds":["quickfix","refactor","info"]},"compilationDatabase":{"automaticReload":true},"completionProvider":{"allCommitCharacters":[" ","\t","(",")","[","]","{","}","<",">",":",";",",","+","-","/","*","%","^","&","#","?",".","=","\"","'","|"],"resolveProvider":false,"triggerCharacters":[".","<",">",":","\"","/","*"]},"declarationProvider":true,"definitionProvider":true,"documentFormattingProvider":true,"documentHighlightProvider":true,"documentLinkProvider":{"resolveProvider":false},"documentOnTypeFormattingProvider":{"firstTriggerCharacter":"\n","moreTriggerCharacter":[]},"documentRangeFormattingProvider":true,"documentSymbolProvider":true,"executeCommandProvider":{"commands":["clangd.applyFix","clangd.applyTweak"]},"hoverProvider":true,"implementationProvider":true,"memoryUsageProvider":true,"referencesProvider":true,"renameProvider":{"prepareProvider":true},"selectionRangeProvider":true,"semanticTokensProvider":{"full":{"delta":true},"legend":{"tokenModifiers":["declaration","deprecated","deduced","readonly","static","abstract","virtual","dependentName","defaultLibrary","usedAsMutableReference","functionScope","classScope","fileScope","globalScope"],"tokenTypes":["variable","variable","parameter","function","method","function","property","variable","class","interface","enum","enumMember","type","type","unknown","namespace","typeParameter","concept","type","macro","comment"]},"range":false},"signatureHelpProvider":{"triggerCharacters":["(",")","{","}","<",">",","]},"textDocumentSync":{"change":2,"openClose":true,"save":true},"typeDefinitionProvider":true,"typeHierarchyProvider":true,"workspaceSymbolProvider":true},"serverInfo":{"name":"clangd","version":"clangd version 14.0.3 (https://github.com/llvm/llvm-project 1f9140064dfbfb0bbda8e51306ea51080b2f7aac) linux+grpc x86_64-unknown-linux-gnu"}}}
+
+V[20:56:38.261] <<< {"jsonrpc":"2.0","method":"initialized","params":{}}
+
+I[20:56:38.261] <-- initialized
+V[20:57:27.693] <<< {"jsonrpc":"2.0","method":"textDocument/didOpen","params":{"textDocument":{"languageId":"cpp","text":"#ifndef FOO_H_\n#define FOO_H_\n\n#include <iostream>\n\nvoid foo();\n\ninline void bar() { std::cout << \"Goodbye!\\n\"; }\n\n#endif // FOO_H_\n","uri":"file:///home/nomi/code/compile-commands-testing/foo.h","version":102}}}
+
+I[20:57:27.693] <-- textDocument/didOpen
+V[20:57:27.694] <<< {"id":1,"jsonrpc":"2.0","method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///home/nomi/code/compile-commands-testing/foo.h"}}}
+
+I[20:57:27.694] <-- textDocument/documentSymbol(1)
+V[20:57:27.694] <<< {"id":2,"jsonrpc":"2.0","method":"textDocument/semanticTokens/full","params":{"textDocument":{"uri":"file:///home/nomi/code/compile-commands-testing/foo.h"}}}
+
+I[20:57:27.694] <-- textDocument/semanticTokens/full(2)
+V[20:57:27.694] <<< {"id":3,"jsonrpc":"2.0","method":"textDocument/codeAction","params":{"context":{"diagnostics":[],"triggerKind":2},"range":{"end":{"character":0,"line":0},"start":{"character":0,"line":0}},"textDocument":{"uri":"file:///home/nomi/code/compile-commands-testing/foo.h"}}}
+
+I[20:57:27.694] <-- textDocument/codeAction(3)
+V[20:57:27.694] <<< {"id":4,"jsonrpc":"2.0","method":"textDocument/documentLink","params":{"textDocument":{"uri":"file:///home/nomi/code/compile-commands-testing/foo.h"}}}
+
+I[20:57:27.694] <-- textDocument/documentLink(4)
+I[20:57:27.699] Loaded compilation database from /home/nomi/code/compile-commands-testing/compile_commands.json
+V[20:57:27.699] Broadcasting compilation database from /home/nomi/code/compile-commands-testing
+I[20:57:27.701] --> window/workDoneProgress/create(0)
+V[20:57:27.701] >>> {"id":0,"jsonrpc":"2.0","method":"window/workDoneProgress/create","params":{"token":"backgroundIndexProgress"}}
+
+I[20:57:27.701] Enqueueing 2 commands for indexing
+V[20:57:27.701] <<< {"id":0,"jsonrpc":"2.0","result":null}
+
+I[20:57:27.701] <-- reply(0)
+I[20:57:27.701] --> $/progress
+V[20:57:27.702] >>> {"jsonrpc":"2.0","method":"$/progress","params":{"token":"backgroundIndexProgress","value":{"kind":"begin","percentage":0,"title":"indexing"}}}
+
+I[20:57:27.702] --> $/progress
+V[20:57:27.702] >>> {"jsonrpc":"2.0","method":"$/progress","params":{"token":"backgroundIndexProgress","value":{"kind":"report","message":"0/1","percentage":0}}}
+
+V[20:57:27.711] System include extraction: target extracted: "x86_64-pc-linux-gnu"
+V[20:57:27.711] System include extraction: adding  /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.1/../../../../include/c++/12.1.1
+V[20:57:27.711] System include extraction: adding  /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.1/../../../../include/c++/12.1.1/x86_64-pc-linux-gnu
+V[20:57:27.711] System include extraction: adding  /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.1/../../../../include/c++/12.1.1/backward
+V[20:57:27.711] System include extraction: adding  /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.1/include
+V[20:57:27.711] System include extraction: adding  /usr/local/include
+V[20:57:27.711] System include extraction: adding  /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.1/include-fixed
+V[20:57:27.711] System include extraction: adding  /usr/include
+I[20:57:27.711] System includes extractor: successfully executed /usr/bin/gcc
+	got includes: "/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.1/../../../../include/c++/12.1.1, /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.1/../../../../include/c++/12.1.1/x86_64-pc-linux-gnu, /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.1/../../../../include/c++/12.1.1/backward, /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.1/include, /usr/local/include, /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.1/include-fixed, /usr/include"
+	got target: "x86_64-pc-linux-gnu"
+I[20:57:27.711] ASTWorker building file /home/nomi/code/compile-commands-testing/foo.h version 102 with command 
+[/home/nomi/code/compile-commands-testing]
+/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -MD -MF bazel-out/k8-fastbuild/bin/_objs/main/main.pic.d -frandom-seed=bazel-out/k8-fastbuild/bin/_objs/main/main.pic.o -fPIC -iquote . -iquote bazel-out/k8-fastbuild/bin -iquote external/bazel_tools -iquote bazel-out/k8-fastbuild/bin/external/bazel_tools -Wno-builtin-macro-redefined "-D__DATE__=\"redacted\"" "-D__TIMESTAMP__=\"redacted\"" "-D__TIME__=\"redacted\"" -c -isystem /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.1/../../../../include/c++/12.1.1 -isystem /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.1/../../../../include/c++/12.1.1/x86_64-pc-linux-gnu -isystem /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.1/../../../../include/c++/12.1.1/backward -isystem /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.1/include -isystem /usr/local/include -isystem /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.1/include-fixed -isystem /usr/include --target=x86_64-pc-linux-gnu -x c++-header -std=c++11 -resource-dir=/home/nomi/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/14.0.3/clangd_14.0.3/lib/clang/14.0.3 -- /home/nomi/code/compile-commands-testing/foo.h
+V[20:57:27.713] Driver produced command: cc1 -cc1 -triple x86_64-pc-linux-gnu -fsyntax-only -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name foo.h -mrelocation-model pic -pic-level 2 -fhalf-no-semantic-interposition -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fcoverage-compilation-dir=/home/nomi/code/compile-commands-testing -resource-dir /home/nomi/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/14.0.3/clangd_14.0.3/lib/clang/14.0.3 -dependency-file bazel-out/k8-fastbuild/bin/_objs/main/main.pic.d -MT foo.o -sys-header-deps -module-file-deps -iquote . -iquote bazel-out/k8-fastbuild/bin -iquote external/bazel_tools -iquote bazel-out/k8-fastbuild/bin/external/bazel_tools -isystem /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.1/../../../../include/c++/12.1.1 -isystem /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.1/../../../../include/c++/12.1.1/x86_64-pc-linux-gnu -isystem /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.1/../../../../include/c++/12.1.1/backward -isystem /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.1/include -isystem /usr/local/include -isystem /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.1/include-fixed -isystem /usr/include -U _FORTIFY_SOURCE -D "__DATE__=\"redacted\"" -D "__TIMESTAMP__=\"redacted\"" -D "__TIME__=\"redacted\"" -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.1.1/../../../../include/c++/12.1.1 -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.1.1/../../../../include/c++/12.1.1/x86_64-pc-linux-gnu -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.1.1/../../../../include/c++/12.1.1/backward -internal-isystem /home/nomi/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/14.0.3/clangd_14.0.3/lib/clang/14.0.3/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.1.1/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -Wno-builtin-macro-redefined -std=c++11 -fdeprecated-macro -fdebug-compilation-dir=/home/nomi/code/compile-commands-testing -ferror-limit 19 -stack-protector 1 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -x c++-header /home/nomi/code/compile-commands-testing/foo.h
+I[20:57:27.713] --> textDocument/clangd.fileStatus
+V[20:57:27.713] >>> {"jsonrpc":"2.0","method":"textDocument/clangd.fileStatus","params":{"state":"parsing includes, running Update (102)","uri":"file:///home/nomi/code/compile-commands-testing/foo.h"}}
+
+V[20:57:27.713] Building first preamble for /home/nomi/code/compile-commands-testing/foo.h version 102
+V[20:57:27.725] BackgroundIndex: building version 1 after loading index from disk
+V[20:57:27.748] BackgroundIndex: serving version 1 (5802132 bytes)
+I[20:57:27.751] --> $/progress
+V[20:57:27.751] >>> {"jsonrpc":"2.0","method":"$/progress","params":{"token":"backgroundIndexProgress","value":{"kind":"report","message":"0/1","percentage":0}}}
+
+I[20:57:27.751] --> $/progress
+V[20:57:27.751] >>> {"jsonrpc":"2.0","method":"$/progress","params":{"token":"backgroundIndexProgress","value":{"kind":"end"}}}
+
+V[20:57:27.865] <<< {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":3}}
+
+I[20:57:27.865] <-- $/cancelRequest
+V[20:57:27.985] indexed preamble AST for /home/nomi/code/compile-commands-testing/foo.h version 102:
+  symbol slab: 4395 symbols, 1392496 bytes
+  ref slab: 0 symbols, 0 refs, 128 bytes
+  relations slab: 269 relations, 8728 bytes
+V[20:57:28.004] Build dynamic index for header symbols with estimated memory usage of 3559084 bytes
+V[20:57:28.007] Built preamble of size 2580584 for file /home/nomi/code/compile-commands-testing/foo.h version 102
+I[20:57:28.007] --> workspace/semanticTokens/refresh(1)
+V[20:57:28.007] >>> {"id":1,"jsonrpc":"2.0","method":"workspace/semanticTokens/refresh","params":null}
+
+I[20:57:28.007] --> textDocument/clangd.fileStatus
+V[20:57:28.007] >>> {"jsonrpc":"2.0","method":"textDocument/clangd.fileStatus","params":{"state":"parsing includes, running Build AST","uri":"file:///home/nomi/code/compile-commands-testing/foo.h"}}
+
+V[20:57:28.008] <<< {"id":1,"jsonrpc":"2.0","result":null}
+
+I[20:57:28.008] <-- reply(1)
+V[20:57:28.015] indexed file AST for /home/nomi/code/compile-commands-testing/foo.h version 102:
+  symbol slab: 3 symbols, 4912 bytes
+  ref slab: 5 symbols, 5 refs, 4416 bytes
+  relations slab: 0 relations, 24 bytes
+V[20:57:28.015] Build dynamic index for main-file symbols with estimated memory usage of 12744 bytes
+I[20:57:28.015] --> textDocument/publishDiagnostics
+V[20:57:28.015] >>> {"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"diagnostics":[],"uri":"file:///home/nomi/code/compile-commands-testing/foo.h","version":102}}
+
+V[20:57:28.015] ASTWorker running DocumentSymbols on version 102 of /home/nomi/code/compile-commands-testing/foo.h
+I[20:57:28.015] --> reply:textDocument/documentSymbol(1) 321 ms
+V[20:57:28.015] >>> {"id":1,"jsonrpc":"2.0","result":[{"detail":"void ()","kind":12,"name":"foo","range":{"end":{"character":10,"line":5},"start":{"character":0,"line":5}},"selectionRange":{"end":{"character":8,"line":5},"start":{"character":5,"line":5}}},{"detail":"void ()","kind":12,"name":"bar","range":{"end":{"character":48,"line":7},"start":{"character":0,"line":7}},"selectionRange":{"end":{"character":15,"line":7},"start":{"character":12,"line":7}}}]}
+
+V[20:57:28.015] ASTWorker running SemanticHighlights on version 102 of /home/nomi/code/compile-commands-testing/foo.h
+I[20:57:28.015] --> reply:textDocument/semanticTokens/full(2) 321 ms
+V[20:57:28.015] >>> {"id":2,"jsonrpc":"2.0","result":{"data":[0,8,6,19,8192,1,8,6,19,8193,4,5,3,3,8193,2,12,3,3,8193,0,8,3,15,8448,0,5,4,0,8448],"resultId":"1"}}
+
+I[20:57:28.015] --> reply:textDocument/codeAction(3) 320 ms, error: Task was cancelled.
+V[20:57:28.015] >>> {"error":{"code":-32800,"message":"Request cancelled"},"id":3,"jsonrpc":"2.0"}
+
+V[20:57:28.015] ASTWorker running DocumentLinks on version 102 of /home/nomi/code/compile-commands-testing/foo.h
+I[20:57:28.015] --> reply:textDocument/documentLink(4) 320 ms
+V[20:57:28.015] >>> {"id":4,"jsonrpc":"2.0","result":[{"range":{"end":{"character":19,"line":3},"start":{"character":9,"line":3}},"target":"file:///usr/include/c%2B%2B/12.1.1/iostream"}]}
+
+I[20:57:28.015] --> textDocument/clangd.fileStatus
+V[20:57:28.015] >>> {"jsonrpc":"2.0","method":"textDocument/clangd.fileStatus","params":{"state":"idle","uri":"file:///home/nomi/code/compile-commands-testing/foo.h"}}
+
+[Error - 8:57:28 PM] Request textDocument/codeAction failed.
+[object Object]
+V[20:57:28.056] <<< {"id":5,"jsonrpc":"2.0","method":"textDocument/semanticTokens/full/delta","params":{"previousResultId":"1","textDocument":{"uri":"file:///home/nomi/code/compile-commands-testing/foo.h"}}}
+
+I[20:57:28.057] <-- textDocument/semanticTokens/full/delta(5)
+V[20:57:28.057] ASTWorker running SemanticHighlights on version 102 of /home/nomi/code/compile-commands-testing/foo.h
+I[20:57:28.057] --> reply:textDocument/semanticTokens/full/delta(5) 0 ms
+V[20:57:28.057] >>> {"id":5,"jsonrpc":"2.0","result":{"edits":[],"resultId":"2"}}
+
+I[20:57:28.057] --> textDocument/clangd.fileStatus
+V[20:57:28.057] >>> {"jsonrpc":"2.0","method":"textDocument/clangd.fileStatus","params":{"state":"idle","uri":"file:///home/nomi/code/compile-commands-testing/foo.h"}}
+
